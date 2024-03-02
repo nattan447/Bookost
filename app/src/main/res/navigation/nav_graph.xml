@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/initialScreen"
+    >
+
+
+    <fragment android:id="@+id/initialScreen"
+        android:name="com.example.bookost.authenticScreens.InitialScreen"
+        android:label="Initialscreen"
+        >
+        <action
+            android:id="@+id/action_initialScreen_to_login"
+            app:destination="@+id/login"
+            />
+
+        <action
+            android:id="@+id/action_initialScreen_to_singup"
+            app:destination="@+id/singup"
+            />
+    </fragment>
+
+    <fragment android:id="@+id/login"
+        android:name="com.example.bookost.authenticScreens.LoginScreen"
+        android:label="login"
+        >
+
+    </fragment>
+
+    <fragment android:id="@+id/singup"
+        android:name="com.example.bookost.authenticScreens.SignupScreen"
+        android:label="sing up"
+        >
+    </fragment>
+
+
+</navigation>

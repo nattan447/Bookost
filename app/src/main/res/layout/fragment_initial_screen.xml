@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authenticScreens.InitialScreen"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Bookost"
+        android:layout_marginTop="200dp"
+        android:textSize="70dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/white"
+        android:id="@+id/loginBtn"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="logar"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_login_background"
+
+
+        />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="OU" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/singupBtn"
+        android:textColor="@color/white"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="criar conta"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_singup_background"
+
+
+        />
+
+
+
+
+
+</LinearLayout>
