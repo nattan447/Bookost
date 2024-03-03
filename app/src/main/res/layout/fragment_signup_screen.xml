@@ -4,10 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".authenticScreens.SignupScreen">
+    <ImageButton
+        android:id="@+id/backToInitialBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/arrowleft"
+        android:background="@drawable/button_back_background"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="criar conta" />
+        />
+
 
 </FrameLayout>
